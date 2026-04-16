@@ -1,0 +1,20 @@
+[project]
+name = "projectnewenv"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pydantic-ai-slim[sentence-transformers]>=1.83.0",
+    "pydantic-ai",       # Agent 框架
+    "modelscope",        # 国内模型下载与调用
+    "python-dotenv",     # 环境变量管理
+    "logfire",           # Agent 执行过程可视化
+    "ipykernel>=7.2.0",  #jupyter依赖
+    "dataclasses>=0.8",  #让大模型有记忆功能
+    "dashscope>=1.25.17", #阿里大模型
+]
+
+[[tool.uv.index]]
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+default = true
