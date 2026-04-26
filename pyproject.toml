@@ -13,6 +13,20 @@ dependencies = [
     "ipykernel>=7.2.0",  #jupyter依赖
     "dataclasses>=0.8",  #让大模型有记忆功能
     "dashscope>=1.25.17", #阿里大模型
+    "ipywidgets>=8.1.8", #适配jupyter notebook的库
+    "faiss-cpu>=1.13.2", #用cpu处理向量
+    "numpy>=2.4.4",     #数组包
+    "chromadb>=1.5.8", #向量数据库包
+    "langgraph>=1.1.8", #企业级大模型脚手架
+    "type-extensions>=0.1.2", #typing模块支持类型提示
+    "langchain-deepseek>=1.0.1",
+    "langchain-openai>=1.1.14",
+    "agentstate>=1.0.2",
+    "pymongo>=4.15.5",  #mongodb数据库
+    "langgraph-checkpoint-mongodb>=0.3.1", #让mongodb成为数据中转站
+    "langchain-community>=0.4.1",
+    "langchain-dashscope>=0.1.6",
+    "web3>=7.15.0",
 ]
 
 [[tool.uv.index]]

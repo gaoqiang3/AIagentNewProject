@@ -1,10 +1,27 @@
-# Python-generated files
-__pycache__/
-*.py[oc]
-build/
-dist/
-wheels/
-*.egg-info
+# 绝密：禁止上传环境配置文件
+.env
+.env.test
 
-# Virtual environments
-.venv
+# Python 缓存
+__pycache__/
+*.py[cod]
+*$py.class
+
+# uv 虚拟环境
+.venv/
+
+# 项目构建产物
+dist/
+build/
+*.egg-info/
+
+# 操作系统临时文件
+.DS_Store
+Thumbs.db
+
+bge-small-zh-v1.5/
+
+*.sqlite3
+*.index
+my_vector_db/
+my_vecto_rdb/
